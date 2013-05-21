@@ -7,18 +7,21 @@ $waktu= $_POST['waktu'];
 $isi= $_POST['isi'];
 $id = $_POST['id']; */
 
+$update = mysql_query("UPDATE s_data_guru set t_nip='$t_nip',t_nama='$t_nama' WHERE t_nip='$t_nip'");
+
+/*
 if(trim($t_nip=='')){
 	echo "NIP";}
-/*elseif(trim($tgl=='')){
+elseif(trim($tgl=='')){
 	echo "Isikan tgl";}
 	elseif(trim($tgl_acara=='')){
 	echo "Isikan tgl acara";}
 	elseif(trim($tempat=='')){
 	echo "Isikan tempat";}
 	elseif(trim($waktu=='')){
-	echo "Isikan waktu";} */
+	echo "Isikan waktu";} 
 	
-/*	elseif(trim($t_nama=='')){
+	elseif(trim($t_nama=='')){
 	echo "Nama";}
 	
 	else{
@@ -29,8 +32,9 @@ if(trim($t_nip=='')){
 	tempat='$tempat',
 	waktu='$waktu',
 	
-	isi='$isi', */
+	isi='$isi', 
 	where t_nip='$t_nip'");
 	echo '<meta http-equiv=\'refresh\'content=\'0;url= lihat_guru.php\'>';
 	}
+	*/
 ?>	
