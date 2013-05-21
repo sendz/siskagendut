@@ -1,0 +1,19 @@
+.container {
+	margin-top: 10px !important;
+}
+.navbar-inner {
+	border-radius: 0 !important;
+}
+.icon {
+	margin:0 10px;
+}
+.carousel-inner div.item > p {
+	overflow: hidden;
+	height: 5.2em;
+}
+.pi_toggle_eun {
+	display: none;
+}
+.hero-unit {
+	padding: 5px !important;
+}
