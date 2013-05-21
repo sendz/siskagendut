@@ -7,7 +7,7 @@ $waktu= $_POST['waktu'];
 $isi= $_POST['isi'];
 $id = $_POST['id']; */
 
-$update = mysql_query("UPDATE s_data_guru set t_nip='$t_nip',t_nama='$t_nama' WHERE t_nip='$t_nip'");
+$update = mysql_query("UPDATE s_data_guru SET t_nip='$t_nip',t_nama='$t_nama' WHERE t_nip='$t_nip'");
 
 /*
 if(trim($t_nip=='')){
