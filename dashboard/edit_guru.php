@@ -18,14 +18,14 @@ if(trim($t_nip=='')){
 	elseif(trim($waktu=='')){
 	echo "Isikan waktu";} */
 	
-	elseif(trim($t_nama=='')){
+/*	elseif(trim($t_nama=='')){
 	echo "Nama";}
 	
 	else{
 	$input = mysql_query("UPDATE s_data_guru set 
 	t_nim='$t_nim',
 	t_nama='$t_nama', 
-/*	tgl_acara='$tgl_acara',
+	tgl_acara='$tgl_acara',
 	tempat='$tempat',
 	waktu='$waktu',
 	
